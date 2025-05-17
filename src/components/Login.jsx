@@ -87,7 +87,7 @@ const Login = () => {
                   Forgot Password?
                 </a>
 
-                <button className="bg-[#008FCE] text-[#F1FFFE] py-2 rounded-3xl w-[14em] mx-auto">
+                <button className="bg-[#008FCE] text-[#F1FFFE] py-2 rounded-3xl w-[10rem] md:w-[14em] mx-auto">
                   Login
                 </button>
               </form>
