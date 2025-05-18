@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BGImage from "../images/BGImage.png";
+import BGImage from "../images/BGImg.png";
 import Logo from "../images/Logo-1.png";
 import award from "../images/award.png";
 import { FiEye, FiEyeOff } from "react-icons/fi";
@@ -19,12 +19,8 @@ const Login = () => {
       className="relative bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${BGImage})` }}
     >
-<div className="min-h-screen z-20 flex justify-center items-center p-10 "
-    style={{
-    background: 'linear-gradient(to bottom right, rgba(0, 114, 167, 0.5), rgba(106, 78, 151, 0.85))'
-  }}
->
-      {/* innerbg */}
+      <div className="min-h-screen z-20 flex justify-center items-center p-10 ">
+        {/* innerbg */}
         <div className=" md:max-w-3xl w-full md:h-full bg-[#DFF3FF] rounded-tl-[5em] rounded-tr-xl rounded-br-[5em] rounded-bl-xl flex flex-col md:flex-row p-6 md:p-10">
           <div className="flex flex-col md:flex-row flex-grow md:grid md:grid-cols-2 gap-8 w-full">
             {/* Left Side */}
@@ -32,10 +28,10 @@ const Login = () => {
               <div className="bg-[#F1FFFE] p-7 rounded-full shadow-lg">
                 <img src={Logo} alt="Logo" className="w-16 h-auto" />
               </div>
-              <p 
+              <p
                 className="text-center text-[#085072] text-xl font-bold font-nunito py-5"
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)" }}
-                >
+              >
                 Student Login
               </p>
 
@@ -106,7 +102,7 @@ const Login = () => {
                 <p className="text-[#434C52] text-sm my-2">
                   Don't have an account?
                 </p>
-                <button 
+                <button
                   className="mt-2 bg-[#F1FFFE] border border-[#008FCE] px-10 py-2 rounded-3xl text-sm text-[#008FCE] font-bold">
                   Register
                 </button>
